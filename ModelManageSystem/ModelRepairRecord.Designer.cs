@@ -1,6 +1,6 @@
 ﻿namespace ModelManageSystem
 {
-    partial class ModelRepair
+    partial class ModelRepairRecord
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // ModelRepair
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1273, 814);
-            this.Name = "ModelRepair";
-            this.Text = "模具维修";
-            this.ResumeLayout(false);
-
+            this.Text = "ModelRepairRecord";
         }
 
         #endregion

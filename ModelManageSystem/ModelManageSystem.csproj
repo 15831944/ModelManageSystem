@@ -56,11 +56,17 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModelRepair.cs">
+    <Compile Include="ModelRARequest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModelRepair.Designer.cs">
-      <DependentUpon>ModelRepair.cs</DependentUpon>
+    <Compile Include="ModelRARequest.Designer.cs">
+      <DependentUpon>ModelRARequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelRepairRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModelRepairRecord.Designer.cs">
+      <DependentUpon>ModelRepairRecord.cs</DependentUpon>
     </Compile>
     <Compile Include="ModelTest.cs">
       <SubType>Form</SubType>
@@ -76,14 +82,20 @@
     <Compile Include="kaimodan.Designer.cs">
       <DependentUpon>kaimodan.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModelRBRHandle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModelRBRHandle.Designer.cs">
+      <DependentUpon>ModelRBRHandle.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Kaimodan_byh.resx">
       <DependentUpon>Kaimodan_byh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModelRepair.resx">
-      <DependentUpon>ModelRepair.cs</DependentUpon>
+    <EmbeddedResource Include="ModelRARequest.resx">
+      <DependentUpon>ModelRARequest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModelTest.resx">
       <DependentUpon>ModelTest.cs</DependentUpon>
@@ -99,6 +111,9 @@
     </Compile>
     <EmbeddedResource Include="kaimodan.resx">
       <DependentUpon>kaimodan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelRBRHandle.resx">
+      <DependentUpon>ModelRBRHandle.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
