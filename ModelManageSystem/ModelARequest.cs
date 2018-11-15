@@ -20,5 +20,12 @@ namespace ModelManageSystem
         {
 
         }
+
+        private void txt_save_Click(object sender, EventArgs e)
+        {
+            //保存页面信息
+            //连接数据库
+
+        }
     }
 }

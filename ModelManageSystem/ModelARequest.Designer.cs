@@ -50,9 +50,9 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txt_save = new System.Windows.Forms.Button();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.button2 = new System.Windows.Forms.Button();
+            this.txt_reset = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -235,23 +235,24 @@
             this.richTextBox1.TabIndex = 21;
             this.richTextBox1.Text = "";
             // 
-            // button1
+            // txt_save
             // 
-            this.button1.Location = new System.Drawing.Point(346, 440);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "提交";
-            this.button1.UseVisualStyleBackColor = true;
+            this.txt_save.Location = new System.Drawing.Point(346, 440);
+            this.txt_save.Name = "txt_save";
+            this.txt_save.Size = new System.Drawing.Size(75, 23);
+            this.txt_save.TabIndex = 22;
+            this.txt_save.Text = "提交";
+            this.txt_save.UseVisualStyleBackColor = true;
+            this.txt_save.Click += new System.EventHandler(this.txt_save_Click);
             // 
-            // button2
+            // txt_reset
             // 
-            this.button2.Location = new System.Drawing.Point(517, 440);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 22;
-            this.button2.Text = "保存";
-            this.button2.UseVisualStyleBackColor = true;
+            this.txt_reset.Location = new System.Drawing.Point(517, 440);
+            this.txt_reset.Name = "txt_reset";
+            this.txt_reset.Size = new System.Drawing.Size(75, 23);
+            this.txt_reset.TabIndex = 22;
+            this.txt_reset.Text = "重置";
+            this.txt_reset.UseVisualStyleBackColor = true;
             // 
             // label12
             // 
@@ -278,8 +279,8 @@
             this.ClientSize = new System.Drawing.Size(963, 521);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txt_reset);
+            this.Controls.Add(this.txt_save);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.textBox10);
@@ -333,9 +334,9 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button txt_save;
         private System.Windows.Forms.ColorDialog colorDialog1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button txt_reset;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
     }
