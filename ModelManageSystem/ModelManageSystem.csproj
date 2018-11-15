@@ -44,11 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Kaimodan_byh.cs">
+    <Compile Include="ModelARequest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Kaimodan_byh.Designer.cs">
-      <DependentUpon>Kaimodan_byh.cs</DependentUpon>
+    <Compile Include="ModelARequest.Designer.cs">
+      <DependentUpon>ModelARequest.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -61,12 +61,6 @@
     </Compile>
     <Compile Include="ModelRARequest.Designer.cs">
       <DependentUpon>ModelRARequest.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ModelRepairRecord.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ModelRepairRecord.Designer.cs">
-      <DependentUpon>ModelRepairRecord.cs</DependentUpon>
     </Compile>
     <Compile Include="ModelTest.cs">
       <SubType>Form</SubType>
@@ -88,8 +82,8 @@
     <Compile Include="ModelRBRHandle.Designer.cs">
       <DependentUpon>ModelRBRHandle.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Kaimodan_byh.resx">
-      <DependentUpon>Kaimodan_byh.cs</DependentUpon>
+    <EmbeddedResource Include="ModelARequest.resx">
+      <DependentUpon>ModelARequest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>

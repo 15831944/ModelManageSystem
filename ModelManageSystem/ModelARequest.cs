@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ModelManageSystem
 {
-    public partial class ModelRepairRecord : Form
+    public partial class ModelARequest : Form
     {
-        public ModelRepairRecord()
+        public ModelARequest()
         {
             InitializeComponent();
         }
