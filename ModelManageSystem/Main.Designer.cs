@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace ModelManageSystem
 {
     partial class Main
     {
@@ -116,25 +116,26 @@
             // 开模申请单ToolStripMenuItem
             // 
             this.开模申请单ToolStripMenuItem.Name = "开模申请单ToolStripMenuItem";
-            this.开模申请单ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.开模申请单ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.开模申请单ToolStripMenuItem.Text = "开模申请单";
+            this.开模申请单ToolStripMenuItem.Click += new System.EventHandler(this.开模申请单ToolStripMenuItem_Click);
             // 
             // 模具试用ToolStripMenuItem
             // 
             this.模具试用ToolStripMenuItem.Name = "模具试用ToolStripMenuItem";
-            this.模具试用ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.模具试用ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.模具试用ToolStripMenuItem.Text = "模具试用";
             // 
             // 模具验收ToolStripMenuItem
             // 
             this.模具验收ToolStripMenuItem.Name = "模具验收ToolStripMenuItem";
-            this.模具验收ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.模具验收ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.模具验收ToolStripMenuItem.Text = "模具验收";
             // 
             // 备件清单ToolStripMenuItem
             // 
             this.备件清单ToolStripMenuItem.Name = "备件清单ToolStripMenuItem";
-            this.备件清单ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.备件清单ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.备件清单ToolStripMenuItem.Text = "备件清单";
             // 
             // 模具维修ToolStripMenuItem
@@ -319,10 +320,10 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(6, 92);
+            this.dataGridView2.Location = new System.Drawing.Point(6, 98);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(1063, 564);
+            this.dataGridView2.Size = new System.Drawing.Size(1063, 558);
             this.dataGridView2.TabIndex = 24;
             // 
             // button2

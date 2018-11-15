@@ -7,13 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace ModelManageSystem
 {
     public partial class Main : Form
     {
         public Main()
         {
             InitializeComponent();
+        }
+
+        private void 开模申请单ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            kaimodan dw = new kaimodan();
+            dw.ShowDialog();
         }
     }
 }

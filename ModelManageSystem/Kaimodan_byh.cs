@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ModelManageSystem
 {
-    public partial class Form1 : Form
+    public partial class Kaimodan_byh : Form
     {
-        public Form1()
+        public Kaimodan_byh()
         {
             InitializeComponent();
         }

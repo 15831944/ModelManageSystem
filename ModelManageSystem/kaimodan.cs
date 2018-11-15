@@ -7,13 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace ModelManageSystem
 {
-    public partial class 开模单 : Form
+    public partial class kaimodan : Form
     {
-        public 开模单()
+        public kaimodan()
         {
             InitializeComponent();
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
