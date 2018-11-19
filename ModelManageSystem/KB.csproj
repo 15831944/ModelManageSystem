@@ -44,8 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\SQLHelper\DBHelper.cs" />
+    <Compile Include="DAL\SQLHelper\GlobalVal.cs" />
     <Compile Include="date.cs" />
-    <Compile Include="MM.cs" />
     <Compile Include="ModelARequest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,7 +124,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BLL\" />
-    <Folder Include="DAL\" />
     <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

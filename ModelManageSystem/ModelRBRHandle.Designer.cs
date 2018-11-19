@@ -1,4 +1,4 @@
-﻿namespace ModelManageSystem
+﻿namespace KB
 {
     partial class ModelRBRHandle
     {

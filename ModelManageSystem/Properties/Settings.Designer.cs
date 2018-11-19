@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ModelManageSystem.Properties
+namespace KB.Properties
 {
 
 

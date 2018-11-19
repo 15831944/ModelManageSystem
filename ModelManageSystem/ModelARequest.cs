@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ModelManageSystem
+namespace KB
 {
     public partial class ModelARequest : Form
     {
@@ -24,7 +24,13 @@ namespace ModelManageSystem
         private void txt_save_Click(object sender, EventArgs e)
         {
             //保存页面信息
+
             //连接数据库
+
+            //
+
+
+
 
         }
     }
